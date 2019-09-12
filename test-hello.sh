@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-outS=$(./hello.sh)
+out=$(bash hello.sh)
 
 # we should check that outS is "Hello"
 
-if [ "${outS}" == "Hello" ];then
+if [ "${out}" == "hello" ];then
   echo "OK: test passed"
 else
   echo "FAIL: test failed"
