@@ -4,7 +4,7 @@ outS=$(./hello.sh)
 
 # we should check that outS is "Hello"
 
-if [ "${outS}" == "Hello" ];then
+if [ "${outS}" == "Hello world" ];then
   echo "OK: test passed"
 else
   echo "FAIL: test failed"
